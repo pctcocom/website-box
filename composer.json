@@ -1,0 +1,37 @@
+{
+    "name": "pctco/website-box",
+    "type": "project",
+    "keywords": [
+        "website",
+        "box"
+    ],
+    "homepage": "https://pctco.com",
+    "license": "MIT",
+    "description": "php all kinds of website-box collection!",
+    "authors": [
+        {
+            "name": "pctco",
+            "email": "pctco.com@gmail.com",
+            "homepage": "https://pctco.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "pctco.com@gmail.com",
+        "issues": "https://github.com/pctcocom/website-box/issues",
+        "forum": "https://pctco.com",
+        "source": "https://github.com/pctcocom/website-box"
+    },
+    "require": {
+        "php": ">=7.1"
+    },
+    "suggest": {
+        "ext-event": "For better website-box configuration. "
+    },
+    "autoload": {
+        "psr-4": {
+            "Pctco\\Verification\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
