@@ -30,7 +30,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Pctco\\Verification\\": "src"
+            "Pctco\\WebsiteBox\\": "src"
         }
     },
     "minimum-stability": "dev"
